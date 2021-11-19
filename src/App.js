@@ -1,23 +1,104 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+import Domains from './Domains.js';
+
+
+
+const domains = [
+    {
+      Title:'.COM',
+      Price:'$5.99/yr',
+      Description:'Instead of $10.99/yr',
+      Buynowbtn:'Buy Now'
+    },
+
+    {
+      Title:'',
+      Price:'',
+      Description:'',
+      Buynowbtn:''
+    },
+
+    {
+      Title:'',
+      Price:'',
+      Description:'',
+      Buynowbtn:''
+    },
+
+    {
+      Title:'',
+      Price:'',
+      Description:'',
+      Buynowbtn:''
+    },
+
+    {
+      Title:'',
+      Price:'',
+      Description:'',
+      Buynowbtn:''
+    },
+
+    {
+      Title:'',
+      Price:'',
+      Description:'',
+      Buynowbtn:''
+    },
+
+    {
+      Title:'',
+      Price:'',
+      Description:'',
+      Buynowbtn:''
+    },
+
+    {
+      Title:'',
+      Price:'',
+      Description:'',
+      Buynowbtn:''
+    }
+
+    
+
+]
+
+const WebHosting = [
+
+]
+
+const DedicatedServers = [
+
+]
+
+const VCS = [
+
+]
+
+const WPH = [
+
+]
+
+const EH = [
+
+]
+
+const VPSHS = [
+
+]
+
+const FreeHosting = [
+
+]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+         
+        <Domains  /> 
+      
     </div>
   );
 }
