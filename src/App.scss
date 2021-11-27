@@ -1,155 +1,108 @@
-.App{
-  margin:5% 0;
-  padding:0 12.5%;
-  display: flex; //default value of flex-direction is row
-  justify-content: space-between; //allows space between items
-  flex-wrap: wrap; //depending on item’s width, it allows more than a row
-  .Domains{
-      width: 28%; //100%:28%=3.57, it means only 3 items will show in a row
-           //28*3=84, 16% are available for spaces, 
-     //there are 2 spaces, 8% for each
-padding:20px 25px; 
-      margin:15px 0;
-  }
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Titles{
+display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-  width: 28%;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media(max-width:767px){        
-  .App{
-      margin:20px 0;
-      padding:0 8.5%;
-      .domains{
-          width: 47.5%;
-          padding:15px 20px;
-          margin:10px 0;
-      }
-  }
-}
-
-@media(max-width:475px){
-  .App{
-      .domains{
-          width: 100%;
-      }
-  }
 }
 
 
 .domain{
   display: flex;
-  background-color: #ffffff;
-  padding: 20px;
-  margin: 2rem;
-  width: 25%;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 16%;
+  margin-right: 14%;
+  flex-wrap: wrap;
 }
 
 
+.first{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
 
 
-.Titles {
-margin-top: 5rem;
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+
+
+.third{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+
+
+.fourth{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+
+
+.fifth{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+
+
+.sixth{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+
+
+.seventh{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+
+.eighth{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+
+
+button {
+  width: 75%;
+  border-color:  #659ef5;
+  border-radius: 50px 50px 50px 50px;
+  background-color: white;
+  color: #659ef5;
+  padding: 5px;
 }
 
 p{
-  color:lightgrey;
+  color: gray;
 }
-
-.first {
-  text-align:center ;
-  background-color: #ffffff;
-  margin: 15px;
-  padding: 5rem;
-  .comi {
-      margin-top: 2rem;
-  }
-  
-}
-
-.second {
-  padding: 5rem;
-  margin: 15px;
-}
-.third {
-  padding: 5rem;
-  margin: 15px;
-}
-.fourth {
-  padding: 5rem;
-  margin: 15px;
-}
-.fifth {
-  padding: 5rem;
-  margin: 15px;
-}
-.sixth {
-  padding: 5rem;
-  margin: 15px;
-}
-.seventh {
-  padding: 5rem;
-  margin: 15px;
-}
-.eighth {
-  padding: 5rem;
-  margin: 15px;
-}
-
-button {
-  background-color: #ffffff;
-  color: #2962ff;
-  border-color: #2962ff;
-  border-radius: 5px;
-  border-width: 1px;
-  padding: 0.5rem;
-}
-
-
-.list{
-  width: 50%;
-  align-items: center;
-  justify-content: center;
-
-  top: 50%;
-  left: 50%;
-}
-
-
-
-
-
 

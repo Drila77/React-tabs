@@ -6,7 +6,7 @@ import './App.scss';
                                
 
 const Domains = (props) => {
-    const { Title, Price, Description, Buynowbtn} = props;
+    const { } = props;
     const [index,setIndex]=useState(0);
     return (
         <Tabs > 
@@ -38,6 +38,7 @@ const Domains = (props) => {
                 </TabList>
             
                 <TabPanel   hidden={index != 0}>
+            
                 <div className='domain'>
                     <div className='first'>
                         <h1>.COM</h1>
@@ -88,48 +89,371 @@ const Domains = (props) => {
                         <button>Buy Now</button>
                     </div>
                 </div>
+            
             </TabPanel>
             <TabPanel  hidden={index != 1}>
-                <h1>{Title}</h1>
-                <h3>{Price}</h3>
-                <p>{Description}</p>
-                <button>{Buynowbtn}</button>
+            <div className='domain'>
+                    <div className='first'>
+                        <h1>Shembulli1</h1>
+                        <h3 className='comi'>$5.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='second'>
+                        <h1>.Shembulli2</h1>
+                        <h3>$55.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='third'>
+                        <h1>Shembulli3</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fourth'>
+                        <h1>Shembulli4</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fifth'>
+                        <h1>Shembulli5</h1>
+                        <h3>$3.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='sixth'>
+                        <h1>Shembulli6</h1>
+                        <h3>$15.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='seventh'>
+                        <h1>Shembulli7</h1>
+                        <h3>$23.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='eighth'>
+                        <h1>Shembulli8</h1>
+                        <h3>$26.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
             </TabPanel>
             <TabPanel  hidden={index != 2}>
-                <h1>{Title}</h1>
-                <h3>{Price}</h3>
-                <p>{Description}</p>
-                <button>{Buynowbtn}</button>
+            <div className='domain'>
+                    <div className='first'>
+                        <h1>DedicatedServers</h1>
+                        <h3 className='comi'>$5.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='second'>
+                        <h1>DedicatedServers</h1>
+                        <h3>$55.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='third'>
+                        <h1>DedicatedServers</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fourth'>
+                        <h1>DedicatedServers</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fifth'>
+                        <h1>DedicatedServers</h1>
+                        <h3>$3.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='sixth'>
+                        <h1>DedicatedServers</h1>
+                        <h3>$15.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='seventh'>
+                        <h1>DedicatedServers</h1>
+                        <h3>$23.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='eighth'>
+                        <h1>DedicatedServers</h1>
+                        <h3>$26.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
             </TabPanel>
             <TabPanel  hidden={index != 3}>
-                <h1>{Title}</h1>
-                <h3>{Price}</h3>
-                <p>{Description}</p>
-                <button>{Buynowbtn}</button>
+            <div className='domain'>
+                    <div className='first'>
+                        <h1>Virtual</h1>
+                        <h3 className='comi'>$5.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='second'>
+                        <h1>Virtual</h1>
+                        <h3>$55.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='third'>
+                        <h1>Virtual</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fourth'>
+                        <h1>Virtual</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fifth'>
+                        <h1>Virtual</h1>
+                        <h3>$3.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='sixth'>
+                        <h1>Virtual</h1>
+                        <h3>$15.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='seventh'>
+                        <h1>Virtual</h1>
+                        <h3>$23.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='eighth'>
+                        <h1>Virtual</h1>
+                        <h3>$26.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
             </TabPanel>
             <TabPanel  hidden={index != 4}>
-                <h1>{Title}</h1>
-                <h3>{Price}</h3>
-                <p>{Description}</p>
-                <button>{Buynowbtn}</button>
+            <div className='domain'>
+                    <div className='first'>
+                        <h1>WordPress</h1>
+                        <h3 className='comi'>$5.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='second'>
+                        <h1>WordPress</h1>
+                        <h3>$55.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='third'>
+                        <h1>WordPress</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fourth'>
+                        <h1>WordPress</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fifth'>
+                        <h1>WordPress</h1>
+                        <h3>$3.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='sixth'>
+                        <h1>WordPress</h1>
+                        <h3>$15.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='seventh'>
+                        <h1>WordPress</h1>
+                        <h3>$23.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='eighth'>
+                        <h1>WordPress</h1>
+                        <h3>$26.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
             </TabPanel>
             <TabPanel  hidden={index != 5}>
-                <h1>{Title}</h1>
-                <h3>{Price}</h3>
-                <p>{Description}</p>
-                <button>{Buynowbtn}</button>
+            <div className='domain'>
+                    <div className='first'>
+                        <h1>EmailHosting</h1>
+                        <h3 className='comi'>$5.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='second'>
+                        <h1>EmailHosting</h1>
+                        <h3>$55.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='third'>
+                        <h1>EmailHosting</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fourth'>
+                        <h1>EmailHosting</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fifth'>
+                        <h1>EmailHosting</h1>
+                        <h3>$3.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='sixth'>
+                        <h1>EmailHosting</h1>
+                        <h3>$15.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='seventh'>
+                        <h1>EmailHosting</h1>
+                        <h3>$23.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='eighth'>
+                        <h1>EmailHosting</h1>
+                        <h3>$26.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
             </TabPanel>
             <TabPanel  hidden={index != 6}>
-                <h1>{Title}</h1>
-                <h3>{Price}</h3>
-                <p>{Description}</p>
-                <button>{Buynowbtn}</button>
+            <div className='domain'>
+                    <div className='first'>
+                        <h1>VPS</h1>
+                        <h3 className='comi'>$5.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='second'>
+                        <h1>VPS</h1>
+                        <h3>$55.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='third'>
+                        <h1>VPS</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fourth'>
+                        <h1>VPS</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fifth'>
+                        <h1>VPS</h1>
+                        <h3>$3.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='sixth'>
+                        <h1>VPS</h1>
+                        <h3>$15.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='seventh'>
+                        <h1>VPS</h1>
+                        <h3>$23.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='eighth'>
+                        <h1>VPS</h1>
+                        <h3>$26.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
             </TabPanel>
             <TabPanel  hidden={index != 7}>
-                <h1>{Title}</h1>
-                <h3>{Price}</h3>
-                <p>{Description}</p>
-                <button>{Buynowbtn}</button>
+            <div className='domain'>
+                    <div className='first'>
+                        <h1>FreeHosting</h1>
+                        <h3 className='comi'>$5.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='second'>
+                        <h1>FreeHosting</h1>
+                        <h3>$55.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='third'>
+                        <h1>FreeHosting</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fourth'>
+                        <h1>FreeHosting</h1>
+                        <h3>$7.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='fifth'>
+                        <h1>FreeHosting</h1>
+                        <h3>$3.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='sixth'>
+                        <h1>FreeHosting</h1>
+                        <h3>$15.99/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='seventh'>
+                        <h1>FreeHosting</h1>
+                        <h3>$23.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div className='eighth'>
+                        <h1>FreeHosting</h1>
+                        <h3>$26.33/yr</h3>
+                        <p>Instead of $10.99/yr</p>
+                        <button >Buy Now</button>
+                    </div>
+                </div>
             </TabPanel>
             
             </Tabs>
